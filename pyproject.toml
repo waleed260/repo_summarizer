@@ -1,0 +1,20 @@
+[project]
+name = "repo-summarizer"
+version = "0.1.0"
+description = "A repository analysis agent with Navigator, Architect, and Guardrail components using OpenAI Agents SDK"
+readme = "README.md"
+authors = [
+    { name = "waleed260", email = "vkdeku20@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.0.3",
+    "python-dotenv>=1.0.0"
+]
+
+[project.scripts]
+repo-summarizer = "repo_summarizer.main:main"
+
+[build-system]
+requires = ["uv_build>=0.9.25,<0.10.0"]
+build-backend = "uv_build"
