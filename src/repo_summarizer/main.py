@@ -354,3 +354,24 @@ Return the sanitized final report with a security summary.
 
     return guardrail_result.output
 
+def main():
+    """Entry point for the CLI."""
+    import asyncio
+
+    # Check for API key
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        print("⚠️ OPENAI_API_KEY environment variable not set")
+        print("   Set it with: export OPENAI_API_KEY='your-api-key'")
+        print("   Or create a .env file from .env.example")
+        return
+
+    print("🔑 OpenAI API key found")
+
+    # Run the async analysis
+    asyncio.run(run_analysis())
+
+
+if __name__ == "__main__":
+    main()
+
