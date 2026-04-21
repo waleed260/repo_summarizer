@@ -340,38 +340,4 @@ Ensure everything is properly redacted.
 Architect's Report:
 {architect_result.output}
 
-Return the sanitized final report with a security summary.
-"""
-        )
-        print(f"✅ Guardrail completed")
-
-    # Final Output
-    print("\n" + "=" * 50)
-    print("📊 FINAL ANALYSIS REPORT")
-    print("=" * 50)
-    print(guardrail_result.output)
-    print("\n✨ Repository analysis complete!")
-
-    return guardrail_result.output
-
-def main():
-    """Entry point for the CLI."""
-    import asyncio
-
-    # Check for API key
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
-        print("⚠️ OPENAI_API_KEY environment variable not set")
-        print("   Set it with: export OPENAI_API_KEY='your-api-key'")
-        print("   Or create a .env file from .env.example")
-        return
-
-    print("🔑 OpenAI API key found")
-
-    # Run the async analysis
-    asyncio.run(run_analysis())
-
-
-if __name__ == "__main__":
-    main()
 
