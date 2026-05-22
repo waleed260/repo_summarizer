@@ -384,29 +384,4 @@ architect_agent = Agent(
 
 ---
 
-## 📄 License
 
-MIT License - see [LICENSE](LICENSE) for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Built with [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)
-- Powered by [OpenAI API](https://platform.openai.com/)
-- Package management by [uv](https://github.com/astral-sh/uv)
-
----
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/waleed260/repo-summarizer/issues)
-- **Email**: vkdeku20@gmail.com
-
----
-
-<div align="center">
-
-**Repository Analysis Agent** - Built with OpenAI Agents SDK
-
-*Understanding codebases, one repository at a time.*
