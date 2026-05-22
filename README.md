@@ -381,7 +381,29 @@ architect_agent = Agent(
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
+## 🙏 Acknowledgments
 
+- Built with [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)
+- Powered by [OpenAI API](https://platform.openai.com/)
+- Package management by [uv](https://github.com/astral-sh/uv)
+
+---
+
+## 📞 Support
+
+- **Issues**: [GitHub Issues](https://github.com/waleed260/repo-summarizer/issues)
+- **Email**: vkdeku20@gmail.com
+
+---
+
+<div align="center">
+
+**Repository Analysis Agent** - Built with OpenAI Agents SDK
+
+*Understanding codebases, one repository at a time.*
